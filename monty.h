@@ -8,6 +8,8 @@
 #include <limits.h>
 #include <unistd.h>
 
+int var_glob[2];
+
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
